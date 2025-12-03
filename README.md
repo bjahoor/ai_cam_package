@@ -65,14 +65,6 @@ ros2 topic pub --once /ai/prompt std_msgs/String '{data: "bottle"}'
 
 This sets the AI to look for the label `"bottle"`.
 
-General example:
-
-```bash
-ros2 topic pub --once /ai/prompt std_msgs/String '{data: "apple, banana"}'
-```
-
-This updates `_AI["labels"]` without restarting the node.
-
 ---
 
 ## Optional Environment Variables
